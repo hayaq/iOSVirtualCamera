@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A92C9461684AE5300734DF8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A92C9451684AE5300734DF8 /* Cocoa.framework */; };
+		4A92C9501684AE5300734DF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A92C94E1684AE5300734DF8 /* InfoPlist.strings */; };
+		4A92C9521684AE5300734DF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A92C9511684AE5300734DF8 /* main.m */; };
+		4A92C9561684AE5300734DF8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A92C9541684AE5300734DF8 /* Credits.rtf */; };
+		4A92C9591684AE5300734DF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A92C9581684AE5300734DF8 /* AppDelegate.m */; };
+		4A92C95C1684AE5300734DF8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A92C95A1684AE5300734DF8 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A92C9411684AE5300734DF8 /* iOSVirtualCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSVirtualCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A92C9451684AE5300734DF8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A92C9481684AE5300734DF8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4A92C9491684AE5300734DF8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4A92C94A1684AE5300734DF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A92C94D1684AE5300734DF8 /* iOSVirtualCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSVirtualCamera-Info.plist"; sourceTree = "<group>"; };
+		4A92C94F1684AE5300734DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A92C9511684AE5300734DF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A92C9531684AE5300734DF8 /* iOSVirtualCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSVirtualCamera-Prefix.pch"; sourceTree = "<group>"; };
+		4A92C9551684AE5300734DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4A92C9571684AE5300734DF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A92C9581684AE5300734DF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A92C95B1684AE5300734DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A92C93E1684AE5300734DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A92C9461684AE5300734DF8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A92C9361684AE5300734DF8 = {
+			isa = PBXGroup;
+			children = (
+				4A92C94B1684AE5300734DF8 /* iOSVirtualCamera */,
+				4A92C9441684AE5300734DF8 /* Frameworks */,
+				4A92C9421684AE5300734DF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A92C9421684AE5300734DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A92C9411684AE5300734DF8 /* iOSVirtualCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A92C9441684AE5300734DF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A92C9451684AE5300734DF8 /* Cocoa.framework */,
+				4A92C9471684AE5300734DF8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A92C9471684AE5300734DF8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A92C9481684AE5300734DF8 /* AppKit.framework */,
+				4A92C9491684AE5300734DF8 /* CoreData.framework */,
+				4A92C94A1684AE5300734DF8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4A92C94B1684AE5300734DF8 /* iOSVirtualCamera */ = {
+			isa = PBXGroup;
+			children = (
+				4A92C9571684AE5300734DF8 /* AppDelegate.h */,
+				4A92C9581684AE5300734DF8 /* AppDelegate.m */,
+				4A92C95A1684AE5300734DF8 /* MainMenu.xib */,
+				4A92C94C1684AE5300734DF8 /* Supporting Files */,
+			);
+			path = iOSVirtualCamera;
+			sourceTree = "<group>";
+		};
+		4A92C94C1684AE5300734DF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A92C94D1684AE5300734DF8 /* iOSVirtualCamera-Info.plist */,
+				4A92C94E1684AE5300734DF8 /* InfoPlist.strings */,
+				4A92C9511684AE5300734DF8 /* main.m */,
+				4A92C9531684AE5300734DF8 /* iOSVirtualCamera-Prefix.pch */,
+				4A92C9541684AE5300734DF8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A92C9401684AE5300734DF8 /* iOSVirtualCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A92C95F1684AE5300734DF8 /* Build configuration list for PBXNativeTarget "iOSVirtualCamera" */;
+			buildPhases = (
+				4A92C93D1684AE5300734DF8 /* Sources */,
+				4A92C93E1684AE5300734DF8 /* Frameworks */,
+				4A92C93F1684AE5300734DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSVirtualCamera;
+			productName = iOSVirtualCamera;
+			productReference = 4A92C9411684AE5300734DF8 /* iOSVirtualCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A92C9381684AE5300734DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = hayashi;
+			};
+			buildConfigurationList = 4A92C93B1684AE5300734DF8 /* Build configuration list for PBXProject "iOSVirtualCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A92C9361684AE5300734DF8;
+			productRefGroup = 4A92C9421684AE5300734DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A92C9401684AE5300734DF8 /* iOSVirtualCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A92C93F1684AE5300734DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A92C9501684AE5300734DF8 /* InfoPlist.strings in Resources */,
+				4A92C9561684AE5300734DF8 /* Credits.rtf in Resources */,
+				4A92C95C1684AE5300734DF8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A92C93D1684AE5300734DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A92C9521684AE5300734DF8 /* main.m in Sources */,
+				4A92C9591684AE5300734DF8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A92C94E1684AE5300734DF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A92C94F1684AE5300734DF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A92C9541684AE5300734DF8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A92C9551684AE5300734DF8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4A92C95A1684AE5300734DF8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A92C95B1684AE5300734DF8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A92C95D1684AE5300734DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A92C95E1684AE5300734DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A92C9601684AE5300734DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSVirtualCamera/iOSVirtualCamera-Prefix.pch";
+				INFOPLIST_FILE = "iOSVirtualCamera/iOSVirtualCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A92C9611684AE5300734DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSVirtualCamera/iOSVirtualCamera-Prefix.pch";
+				INFOPLIST_FILE = "iOSVirtualCamera/iOSVirtualCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A92C93B1684AE5300734DF8 /* Build configuration list for PBXProject "iOSVirtualCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A92C95D1684AE5300734DF8 /* Debug */,
+				4A92C95E1684AE5300734DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A92C95F1684AE5300734DF8 /* Build configuration list for PBXNativeTarget "iOSVirtualCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A92C9601684AE5300734DF8 /* Debug */,
+				4A92C9611684AE5300734DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A92C9381684AE5300734DF8 /* Project object */;
+}
