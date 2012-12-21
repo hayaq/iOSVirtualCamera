@@ -25,7 +25,8 @@
 -(void)viewDidAppear:(BOOL)animated{
 	[super viewDidAppear:animated];
 	
-	if( !glView ){		
+	if( !glView ){
+		
 		shmVideo = [[SHMVideo client] retain];
 		if( ![shmVideo allocateBuffer] ){
 			return;

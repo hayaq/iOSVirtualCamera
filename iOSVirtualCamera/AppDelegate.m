@@ -126,7 +126,7 @@ static void CameraCallback(QTCamera *capture, void **buffers, void *context);
 	if( !shareContext ){ return; }
 	
 	if( captureFormatChanged || !shmVideo.sharedMemory ){
-		[shmVideo allocateBufferWith:NSMakeSize(camera.width,camera.height) format:camera.bpp];
+		[shmVideo allocateBufferWithSize:NSMakeSize(camera.width,camera.height) format:camera.bpp];
 	}
 	[shmVideo updateVideoBuffer:buffers];
 	

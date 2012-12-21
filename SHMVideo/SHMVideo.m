@@ -99,7 +99,7 @@ static inline uint32_t GetCurrentTimeInUsec();
 	return ptr;
 }
 
--(void*)allocateBufferWith:(CGSize)size format:(int)bpp{
+-(void*)allocateBufferWithSize:(CGSize)size format:(int)bpp{
 	if( _mode == 0 ){
 		return [self allocateBuffer];
 	}

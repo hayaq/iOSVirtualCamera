@@ -19,6 +19,6 @@
 +(id)client;
 -(id)initWithMode:(int)mode;
 -(void*)allocateBuffer;
--(void*)allocateBufferWith:(CGSize)size format:(int)bpp;
+-(void*)allocateBufferWithSize:(CGSize)size format:(int)bpp;
 -(void)updateVideoBuffer:(void**)src;
 @end
